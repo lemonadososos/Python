@@ -6,7 +6,7 @@ number = random.randint(1, 10)
 num = 0
 popitka = 1
 
-while num != number and popitka <= 3:
+for popitka in range(1,4):
     num = int(input(f"попытка {popitka}: "))
     if num == number:
         print("поздравляю! вы угадали")
@@ -21,4 +21,3 @@ while num != number and popitka <= 3:
                 print("число больше")
         else:
             print("попытки кончились")
-    popitka = popitka + 1
