@@ -4,7 +4,6 @@ print("угадайте число от 1 до 10")
 
 number = random.randint(1, 10)
 num = 0
-popitka = 1
 
 for popitka in range(1,4):
     num = int(input(f"попытка {popitka}: "))
