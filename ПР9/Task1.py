@@ -4,8 +4,11 @@ num = int(input("введите число:"))
 chislo = 1
 
 while chislo <= num:
-    if chislo < 5 or chislo > 9 or chislo < 17 or chislo > 37 or chislo < 78 or chislo > 87:
+    if (5 <= chislo <= 9) or (17 <= chislo <= 37) or (78 <= chislo <= 87):
+        chislo += 1
+        continue
+    else:
         print(chislo)
         chislo += 1
-    else:
-        chislo += 1
+
+
