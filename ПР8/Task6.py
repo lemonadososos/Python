@@ -21,3 +21,4 @@ while num != number and popitka <= 3:
                 print("число больше")
         else:
             print("попытки кончились")
+    popitka = popitka + 1
