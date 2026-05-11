@@ -9,7 +9,7 @@ sum_num_0_and_5 = 0
 count_num = len(str(num))
 digits = list(map(int, str(num)))
 cifri = 0
-#print(str(num).count("3"))
+
 while cifri < count_num  :
     if digits[cifri] == 3 :
         number3 += 1
@@ -24,10 +24,10 @@ while cifri < count_num  :
     if digits[cifri] == 0 or digits[cifri] == 5 :
         sum_num_0_and_5 += 1
     cifri = cifri + 1
-
-print(f"количество цифр [3] в числе: {number3}")
-print(f"количество последних цифр в числе: {last_num}")
-print(f"количество чётных цифр в числе: {chet_num}")
-print(f"количество цифр больше 5 в числе: {sum_num_bol_5}")
-print(f"произведение цифр больше 7 в числе(минимум 1): {umn_num_7}")
-print(f"количество цифр [0] и [5] в числе: {sum_num_0_and_5}")
+else:
+    print(f"количество цифр [3] в числе: {number3}")
+    print(f"количество последних цифр в числе: {last_num}")
+    print(f"количество чётных цифр в числе: {chet_num}")
+    print(f"количество цифр больше 5 в числе: {sum_num_bol_5}")
+    print(f"произведение цифр больше 7 в числе(минимум 1): {umn_num_7}")
+    print(f"количество цифр [0] и [5] в числе: {sum_num_0_and_5}")
