@@ -5,4 +5,4 @@ while True:
     if num < 0:
         break
     proizvedenie *= num
-    print(proizvedenie)
+print(proizvedenie)
