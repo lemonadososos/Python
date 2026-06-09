@@ -1,5 +1,5 @@
 PASSWORD = "admin"
-ATTEMPTS = 3
+ATTEMPTS = 0
 
 while True:
     attempt = input("введите пароль: ")
