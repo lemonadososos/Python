@@ -2,5 +2,5 @@ users = ['Admin', 'Guest', 'User', 'Bot']
 
 users[2] = "Moderator"
 users[-1] = "SuperAdmin"
-users.append("Newbie")
+users += ["Newbie"]
 print(f"список пользователей:{users}")
