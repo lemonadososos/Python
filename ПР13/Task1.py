@@ -10,6 +10,6 @@ else:
     print("NO")
 
 del numbers[0]
-del numbers[-1]
+numbers.pop(len(numbers)-1)
 
 print(f"список numbers = без первого и последнего числа : {numbers}")
